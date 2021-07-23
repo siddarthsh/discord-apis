@@ -9,9 +9,8 @@ import { Client, Message } from 'discord.js';
  * @param uuid A special id, default the author's id
  */
 export function chatBot(
-    client: Client,
-    channelID?: string,
     message: Message,
     input: string,
-    uuid?: string
+    userID?: string,
+    channelID?: string
 ): JSON;

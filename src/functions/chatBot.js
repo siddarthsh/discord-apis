@@ -1,4 +1,4 @@
-async function chatBot(channelID, message, input, uuid) {
+async function chatBot(message, input, userID, channelID) {
     if (!message) {
         throw new ReferenceError('[Chatbot] "message" is not defined');
     }
@@ -12,7 +12,7 @@ async function chatBot(channelID, message, input, uuid) {
     fetch(
         `https://api.monkedev.com/fun/chat?msg=${encodeURIComponent(
             input
-        )}&uid=${uuid || message.author.id}`
+        )}&uid=${userID || message.author.id}`
     )
         .then((res) => res.json())
         .then(async (json) => {
