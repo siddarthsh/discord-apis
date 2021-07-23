@@ -1,4 +1,4 @@
-# discord-helper
+# djs-helper
 
 A simple lightweight api for discord.js
 
