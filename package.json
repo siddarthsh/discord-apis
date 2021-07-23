@@ -1,0 +1,17 @@
+{
+    "name": "discord-helper",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "siddarthsh",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^13.0.0-dev.fe6cc0c.1625227356",
+        "jsdom": "^16.4.0",
+        "ms": "^2.1.2"
+    },
+    "types": "index.d.ts"
+}
