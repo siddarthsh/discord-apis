@@ -1,4 +1,4 @@
-# ❔ discord-helper
+# discord-helper
 
 A simple lightweight api for discord.js
 
